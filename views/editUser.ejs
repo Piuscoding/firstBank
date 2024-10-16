@@ -241,7 +241,7 @@
           </div>
           
           
-          <form action="/editUser/<%=user._id%>?_method=PUT" method="POST">
+          <form action="/editUser/<%=user._id%>" method="post">
           
             <div class="row form-group mb-4">
               <div class="col">
@@ -393,7 +393,7 @@
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <form action="/deleteUser/<%=user._id%> ?_method=DELETE" method="POST" class="position-relative">
+                <form action="/deleteUser/<%=user._id%>" method="post" class="position-relative">
                   <button type="submit" class="btn btn-primary">Yes, Remove User</button>
                 </form>
               </div>
