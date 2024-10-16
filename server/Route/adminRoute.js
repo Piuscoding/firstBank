@@ -15,7 +15,7 @@ router.get('/viewUser/:id',adminController.viewUser );
 
 router.get('/editUser/:id',adminController.editUser );
 
-router.put('/editUser/:id', adminController.editUser_post);
+router.post('/editUser/:id', adminController.editUser_post);
 
 // //************************************* */ All Deposits  routes**********************//
 
